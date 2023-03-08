@@ -1,0 +1,11 @@
+public class Usuario {
+    private char[] senha;
+
+    public void setSenha(char[] senha) {
+        this.senha = senha;
+    }
+
+    public char[] getSenha() {
+        return senha;
+    }
+}
